@@ -22,7 +22,7 @@ jobs:
     
     env:
       ARM_SUBSCRIPTION_ID: '1f30f1f8-2543-43ff-9c20-cb83ca13dd68'
-      ARM_TENNANT_ID: 'ff8b7e74-0cfc-42e2-a4af-e8b35d4776e8'
+      ARM_TENANT_ID: 'ff8b7e74-0cfc-42e2-a4af-e8b35d4776e8'
       ARM_CLIENT_ID: '8bb97451-2e11-4edc-bdb0-4ac4d80ec6ae'
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
       AZURE_STORAGE: 'terraformdemoig'
